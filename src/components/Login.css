@@ -1,0 +1,44 @@
+.roo{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    /* grid-auto-rows: minmax(30rem,auto); */
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    /* grid-gap: 1rem; */
+    border-radius: 10rem;
+}
+
+.cooo{
+    display: block;
+    height: 60rem;
+}
+
+input[type='text']{
+    display: block;
+    height: 5rem;
+    width: 70% !important;
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 1rem;
+    
+}
+input[type='submit']{
+        display: block;
+    height: 5rem;
+    width: 70% !important;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    background-color: rgb(56, 56, 202);
+    color: white;
+    font-size: 2rem !important;
+
+    
+}
+.formm{
+    flex-direction: column;
+}
+.la{
+    text-align: left !important;
+}

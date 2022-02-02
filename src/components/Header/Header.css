@@ -1,0 +1,56 @@
+
+/* html{
+    font-size: 65%;
+    font-style: italic;
+}
+
+a{
+   
+    font-size: 2.2rem;
+     text-decoration: none;
+
+}
+li{
+    list-style: none;
+     font-size: 2.2rem;
+} */
+
+/* 
+@media screen and (max-width : 350px){
+    html{
+        font-size: 20% !important;
+    }
+} */
+/* 
+@media screen and (max-width : 480px){
+    html{
+        font-size: 30% !important;
+
+    }
+    .fa,.fas{
+        /* margin:0 1rem; */
+    /* } */
+/* } */
+/* @media screen and (min-width : 750px){ */
+    /* html{
+        font-size: 50% !important;
+    }
+}  */
+/* @media screen and (min-width : 1000px){
+    html{
+        font-size: 79%;
+    }
+} */
+
+
+.nn{
+    font-size: 2.4rem;
+}
+.ii{
+    font-size: 2.4rem;
+}
+.logo{
+    font-size: 5rem !important;
+    color: red !important;
+    font-weight: bold;
+}

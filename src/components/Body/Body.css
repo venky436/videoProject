@@ -1,0 +1,163 @@
+
+.bb{
+    margin-top: 10rem !important;
+}
+body{
+    position: relative;
+    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.coo{
+    position: relative;
+    /* transition: all 1s; */
+    overflow: hidden;
+    margin: 2rem 0.5rem;
+    /* box-shadow: 4px 4px 3px rgba(0,0,0,0.4); */
+    padding: 2rem !important;
+
+    
+
+
+}
+.cc,.con{
+    position: absolute;
+    top: 0;
+    transition: all 1s ease-in-out;
+
+}
+
+.cc{
+    display: none;
+}
+
+/* carousel */
+.cccc{
+    background-color: rgba(27, 180, 27, 0.3);
+    box-shadow: 4px 4px 3px rgba(0,0,0,0.4);
+   
+
+}
+
+.con{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    background-color: rgba(76, 175, 76,0.4);
+    color: white;
+
+}
+.coo:hover > .car{
+   opacity: 0.3;
+    /* transform: scale(0.9) !important; */
+    user-select: none;
+
+    
+}
+.coo:hover > .con{
+    animation: move 0.5s forwards;
+
+}
+@keyframes move{
+    100%{
+       top: 0;
+    }
+}
+.coo:hover > .cc{
+    transform: scale(1.1) !important;
+}
+
+
+.far,.fa-cart-plus,.rev{
+    font-size: 2.9rem;
+    cursor: pointer;
+    
+}
+.fas,.far{
+    font-size: 2.5rem;
+    /* color: white !important; */
+
+}
+.i{
+    font-size: 3rem !important;
+    color: black;
+}
+
+
+
+.cas{
+    width: 100%;
+    height: 50rem;
+    /* padding: 2rem 0; */
+    
+}
+.cas-sub{
+    width: 100% !important;
+    height: 100% !important;
+    
+}
+.cas-sub h3{
+    color: black;
+}
+.immm{
+    width: 100% !important;
+    height:50rem !important;
+    object-fit:contain;
+    object-position: center;
+    border-radius: 100%;
+    padding: 2rem 0;
+
+}
+.im{
+    display: block;
+    width: 100%;
+    height: 60% !important;
+    object-fit: center;
+    object-position: cover;
+}
+
+/* reviews */
+
+.revv{
+    font-size: 3.5rem !important;
+    width: 18rem !important;
+    height: auto;
+    text-align: center;
+    /* background-color: red; */
+}
+.revv::after{
+    content: '';
+    display: block;
+    width: 18rem;
+    height: 0.5rem;
+    background-color: red;
+    margin-top: 1rem;
+}
+.bb{
+    /* margin: 1.2rem 0 !important; */
+}
+.pp{
+    display: block;
+    width: 30rem;
+    height: auto;
+    margin: 8rem 0 !important;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:black;
+}
+.pp::after{
+    content: '';
+    display: block;
+    width: 30rem;
+    height: 0.5rem;
+    background-color: red;
+    margin-top: 1rem;
+}
